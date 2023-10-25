@@ -1,0 +1,113 @@
+.UpdateCoupon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 500px;
+    overflow-y: auto;
+    margin: 30px auto;
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        }
+
+        .file-input-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6px;
+          }
+
+        input[type="text"], input[type="number"], input[type="date"], select {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 50%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 16px;
+            resize: vertical;
+            text-align: center;
+            }
+
+            .react-datepicker-wrapper {
+                width: 100%;
+                position: relative;
+              }
+
+              .react-datepicker {
+                position: absolute;
+                left: 0;
+                top: 100%;
+                z-index: 9999;
+              }
+
+              form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              }
+
+              input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  max-width: 300px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+            .file-input-button {
+                background-color: #4caf50;
+                border: none;
+                color: white;
+                padding: 12px 24px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                margin-top: 6px;
+                border-radius: 4px;
+                }
+
+                .file-input-button:hover {
+                    background-color: #2e8b57;
+                    }
+
+                    .error {
+                        color: red;
+                        font-size: 14px;
+                        }
+
+
+.submitChanges{
+    text-align: center;
+}
+
+#saveButton {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    #saveButton:hover {
+    background-color: #2e8b57;
+    }
+.CouponCardUpdate{
+    text-align: center;
+}
+

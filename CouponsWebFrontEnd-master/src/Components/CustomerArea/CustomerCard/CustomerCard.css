@@ -1,0 +1,34 @@
+.CustomerCard {
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.CustomerCard:hover {
+    transform: scale(1.05);
+}
+
+.CustomerCard .bottom-right-button-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CustomerCard a {
+    text-decoration: none;
+    color: black;
+}
+
+.CustomerCard a.right-button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.CustomerCard a.right-button:hover {
+    background-color: #d4d4d4;
+}

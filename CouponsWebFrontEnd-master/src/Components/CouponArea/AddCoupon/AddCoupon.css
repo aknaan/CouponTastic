@@ -1,0 +1,30 @@
+.file-input-container {
+    position: relative;
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+  }
+  
+  .file-input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .file-input-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="date"] {
+    height: 36px;
+    width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+  }

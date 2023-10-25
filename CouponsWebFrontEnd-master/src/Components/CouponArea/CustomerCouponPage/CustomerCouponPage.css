@@ -1,0 +1,65 @@
+.CustomerCouponPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .picture {
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .rightButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .buyButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buyButton:hover {
+    background-color: #45a049;
+  }
+  
+  .fixed-place-left-bottom-button {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: #3f51b5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .fixed-place-left-bottom-button:hover {
+    background-color: #303f9f;
+  }

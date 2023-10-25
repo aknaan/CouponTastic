@@ -1,0 +1,37 @@
+.AuthButton{
+    display: flex;
+    align-items: center;
+}
+  
+  .AuthButton button:hover {
+    text-decoration: underline;
+    font-size: 15px;
+    color: orange;
+  }
+  
+  .AuthButton button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AuthButton span {
+    display: flex;
+    align-items: center;
+  }
+
+#logoutButton{
+    text-decoration: none;
+    color: black;
+}
+
+#logoutButton:hover{
+    text-decoration: underline;
+    font-size: 15px;
+}

@@ -1,0 +1,17 @@
+.UpdateCustomer {
+    margin: 20px;
+  }
+  
+  .form {
+    max-width: 400px;
+    height: 500px;
+    overflow-y: auto;
+    margin: 0 auto;
+  }
+  
+  .buttons-area {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+

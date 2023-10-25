@@ -1,0 +1,72 @@
+.CouponDetailsPage  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.CouponCardDesign{
+   width: 80%; 
+}
+
+.CardContentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#detailImage > img{
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.CouponDetailsPage > #backButton{
+    width: 5%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#backButton > button{
+    border: solid 1px;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+}
+
+#backButton > button:hover{
+    background-color: skyblue;
+}
+
+#backButton > button:active{
+    background-color: rgba(56,112,255,0.7);
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.deleteButtonCoupon > #deleteCoupon{
+    border: solid 1px;
+    border-radius: 8px;
+    margin: 0 10px 5px 5px;
+}
+.deleteButtonCoupon > #deleteCoupon:hover{
+    font-size: 1em;
+    background-color: #ff5c5c;
+    color: whitesmoke;
+}
+
+.editButtonCoupon > #editCoupon{
+    border: solid 1px;
+    border-radius: 8px;
+    margin: 0 10px 5px 5px;
+}
+
+.editButtonCoupon > #editCoupon:hover{
+    font-size: 1em;
+    background-color: #ff9f3d;
+    color: whitesmoke;
+}
+
+

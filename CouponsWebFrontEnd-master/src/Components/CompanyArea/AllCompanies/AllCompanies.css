@@ -1,0 +1,40 @@
+.AllCompanies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.AllCompanies .Card {
+    width: 250px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.AllCompanies .Card:hover {
+    transform: scale(1.05);
+}
+
+.AllCompanies .bottom-left-button-block {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.AllCompanies a {
+    text-decoration: none;
+    color: black;
+}
+
+.AllCompanies a.left-button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.AllCompanies a.left-button:hover {
+    background-color: #d4d4d4;
+}

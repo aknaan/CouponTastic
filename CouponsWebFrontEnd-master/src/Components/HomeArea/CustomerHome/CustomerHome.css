@@ -1,0 +1,42 @@
+.CustomerHome {
+    position: relative;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(to bottom right, #ff5c5c, #ff9f3d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.CustomerHomePageImage {
+    width: 100%;
+}
+
+.CustomerHome img{
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .CustomerHomePageImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .banner-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .banner {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }

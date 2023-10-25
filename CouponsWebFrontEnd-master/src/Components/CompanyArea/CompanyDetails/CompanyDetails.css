@@ -1,0 +1,8 @@
+.CompanyDetails .name, .CompanyDetails .email{
+    text-align: center;
+}
+
+#companyDetailsCardContent{
+    text-align: center;
+    margin: 15px 0px 30px 24em;
+}

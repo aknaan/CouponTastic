@@ -1,0 +1,36 @@
+.CompanyCoupons {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+  
+  .CompanyCoupons form {
+    margin-bottom: 10px;
+  }
+  
+  .CompanyCoupons .bottom-left-button {
+    position: static;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 999;
+    flex-direction: row; 
+    justify-content: flex-start; /* Align buttons to the left */
+  }
+  
+  .CompanyCoupons .bottom-left-button button {
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 2px 8px;
+    flex-shrink: 0; /* Prevent buttons from shrinking */
+  }
+
+  .CompanyCoupons .bottom-left-button button:hover {
+    background-color: lightgray; 
+  }
+  
+  
+  
+  
+  
